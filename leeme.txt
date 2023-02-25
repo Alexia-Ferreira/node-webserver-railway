@@ -1,0 +1,13 @@
+QUE DEBEMOS HACER PARA DESPLEGAR NUESTRA APLICACION
+1. Establecer el puerto en la que se ejecutara de manera dinamica mediante variables de entorno
+2. Debo irme a los scripts del package.json en donde se debe especificar este nombre "start"
+este nombre indica a la mayoria de los hostings que estan esperando aplicaciones de node
+que este es  el comando para levantar la aplicacion cuando este lista
+(se ejecuta con npm start).
+
+
+3. Esto es opcional pero recomendado
+
+Hay ciertos hostings en donde uno sube todos los archivos menos los modulos de node y ya empiezan a trabajar.
+Hay otros que trabajan en base a git en donde nunca se hace respaldo a los modulos de node
+por lo que creamos otro archivo llamado .gitignore
